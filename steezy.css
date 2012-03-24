@@ -1,10 +1,8 @@
-/**
-*
+/*
 * steezy.css 
 * a baller default for styling
 * by david glivar
-* 
-**/
+*/
 
 /* RESETS */
 html, body, p,
@@ -15,36 +13,23 @@ input, textarea, select, option, button {
   margin: 0; 
   padding: 0; 
 }
-
+html, body { overflow: auto; }
 body { 
   font-size: 62.5%;
   font-family: Sans-serif, Helvetica, Arial;
 }
-
 h1, h2, h3, h4, h5, h6, th { 
   font-weight: 100; 
   font-size: inherit; 
 }
-
 a, a:link, a:active, a:visited, a:hover { 
   text-decoration: none; 
   color: inherit; 
 }
-
-html, body { 
-  overflow: auto; 
-}
-
-ul, ol { 
-  list-style: none; 
-}
-
+ul, ol { list-style: none; }
 img, input, textarea, button, hr, 
 table, th, tr, td { 
   border: none; 
   background: none; 
 }
-
-input, button, textarea { 
-  font-family: inherit; 
-}
+input, button, textarea { font-family: inherit; }
